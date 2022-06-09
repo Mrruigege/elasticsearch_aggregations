@@ -6,4 +6,10 @@ package com.example.elasticsearchagg.service;
  * @date 2022/4/27 20:31
  */
 public interface BucketsAggregationsService {
+
+    void dateHistogramAgg();
+
+    void dateRangeAgg();
+
+    void significantTermsAgg();
 }
